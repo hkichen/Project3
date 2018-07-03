@@ -37,8 +37,9 @@ BillsBuster uses GET and POST routes to handle its data, along with a MySQL data
 
 TRELLO Board organizer
 
-![trello1](app/assets/github/trello1.png)
-![trello2](app/assets/github/trello2.png)
+![trello1](https://github.com/hkichen/Project3/blob/master/app/assets/github/trello1.PNG)
+
+![trello2](https://github.com/hkichen/Project3/blob/master/app/assets/github/trello2.PNG)
 
 ### Mobile Screen Mockups
 
