@@ -30,10 +30,15 @@ BillsBuster uses GET and POST routes to handle its data, along with a MySQL data
 * Lina Kichen
 * Ryan McKenzie
 
-### Components
+### Components and Tasks
 - Database setup, login and signup pages, user authentication: Lina
 - Home page, Nav bar, graph usage, bill folder form: John
 - Inside folder page, add statement form, camera access: Ryan
+
+TRELLO Board organizer
+
+![alt tag](app/assets/github/trello1.png)
+![alt tag](app/assets/github/trello2.png)
 
 ### Mobile Screen Mockups
 
