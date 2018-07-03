@@ -4,7 +4,7 @@ BillsBuster is a mobile responsive app that allows users to keep track of their 
 
 ### Dependencies
 
-Users will need to install the following NPM packages:
+The app includes the following packages:
 
 * Axios
 * Body-Parser
@@ -18,7 +18,7 @@ Users will need to install the following NPM packages:
 
 ### Usage
 
-After registering with a **username/email** and password, users can add how much of their money they are spending on bills each month by adding them all together. Users will have the ability to calculate the sum of one-time and recurring monthly costs, which is then compared to their monthly income. BillsBuster is designed to make managing your finances simpler and more comprehensive.
+After registering with a **username/email** and password, users can track how much of their money they are spending on bills each month by filling out their billing information. This will help generate a graph that displays each's bill type's average expenditure compared to their monthly. BillsBuster is designed to make managing your finances simpler and more comprehensive, while allowing you to store all your bills virtually.
 
 ### Technologies
 
@@ -29,6 +29,11 @@ BillsBuster uses GET and POST routes to handle its data, along with a MySQL data
 * John Waymire
 * Lina Kichen
 * Ryan McKenzie
+
+### Components
+- Database setup, login and signup pages, user authentication: Lina
+- Home page, Nav bar, graph usage, bill folder form: John
+- Inside folder page, add statement form, camera access: Ryan
 
 ### Mobile Screen Mockups
 
