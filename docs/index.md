@@ -13,7 +13,8 @@ John
 - Designing Home page
 - Building the pie chart to show the breakdown of bills 
 - Design "add new bill folder" form 
-- Add statement form 
+- Populate folder in page
+ 
 
 Ryan
 - Design what the inside of a folder of a bill will look 

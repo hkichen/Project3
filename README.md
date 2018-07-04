@@ -8,6 +8,7 @@ The app includes the following packages:
 
 * Axios
 * Body-Parser
+* Auth0
 * Express
 * MySQL
 * Sequelize
@@ -32,7 +33,7 @@ BillsBuster uses GET and POST routes to handle its data, along with a MySQL data
 
 ### Components and Tasks
 - Database setup, login and signup pages, user authentication: Lina
-- Home page, Nav bar, graph usage, bill folder form: John
+- Home page, graph usage, bill folder form: John
 - Inside folder page, add statement form, camera access: Ryan
 
 TRELLO Board organizer
