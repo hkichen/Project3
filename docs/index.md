@@ -14,7 +14,7 @@ John
 - Building the pie chart to show the breakdown of bills 
 - Design "add new bill folder" form 
 - Populate folder in page
- 
+
 
 Ryan
 - Design what the inside of a folder of a bill will look 
@@ -34,13 +34,13 @@ TRELLO Board organizer
 
 ### Mock Layouts
 - This is the cover page layout, where a user can either sign up or log in. Signing up will add a new user in the database while logging in will go through Auth0 authentication. The sign up form will also ask for income and email.
-![mockup1](app/assets/github/mockup-1.png)
+![mockup1](https://github.com/hkichen/Project3/blob/master/app/assets/github/mockup-1.png)
 
 - The Home Page will showcase the pie chart that breaks down the user's bills. It will also display what percent of monthly income is being spent on bills. It will be empty until they create their first folder and fill out the information. The form will prompt user for: bill/bill type name, bank/source of funds, due date,  
-![mockup2](app/assets/github/mockup-2.png)
+![mockup2](https://github.com/hkichen/Project3/blob/master/app/assets/github/mockup-2.png)
 
 - Once inside a folder, a user can see all the statements filed under that billing type. Users can take a photo of their statement and store it in the folder. Each statement will be added to the database's Statement table, and populated in the folder as a clickable link. Once they click on the link, the can view the picture of the statment. To add a statement, the use must fill out a form, access their camera, and submit.
-![mockup3](app/assets/github/mockup-3.png)
+![mockup3](https://github.com/hkichen/Project3/blob/master/app/assets/github/mockup-3.png)
 
 -----------------------------------------------------
 
