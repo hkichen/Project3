@@ -28,7 +28,7 @@ Ryan
 - June 28-July 3: make mock-ups of app, task breakdown, make trello board to keep track of tasks
 - July 3: Deliverable 1 due
 
-TRELLO Board organizer
+### TRELLO Board organizer
 ![trello1](https://github.com/hkichen/Project3/blob/master/app/assets/github/trello1.PNG)
 ![trello2](https://github.com/hkichen/Project3/blob/master/app/assets/github/trello2.PNG)
 
