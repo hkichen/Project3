@@ -22,10 +22,12 @@
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
+    "chart.js": "^2.7.2",
     "express": "^4.15.4",
     "if-env": "^1.0.4",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
+    "react-chartjs-2": "^2.7.2",
     "sequelize": "^4.38.0",
     "sequelize-cli": "^4.0.0"
   }
