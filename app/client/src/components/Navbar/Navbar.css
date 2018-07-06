@@ -1,0 +1,13 @@
+.navLink {
+    color: #f8ce10;
+    
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
