@@ -12,11 +12,12 @@ app.use(bodyParser.json());
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
-// Add routes, both API and view
 
-//app.use(routes);
 
-// Connect to the mySQL
+
+
+
+
 
 // Start the API server
 app.listen(PORT, function() {
