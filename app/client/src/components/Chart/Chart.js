@@ -17,7 +17,7 @@ class Chart extends Component {
           data={this.state.chartData}
           options={{
             legend: {
-              display: true,
+              display: false,
               position: 'bottom'
             }
           }}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Chart from '../../components/Chart/Chart';
+import './Dashboard.css';
 
 class Dashboard extends Component {
   constructor() {
@@ -66,6 +67,24 @@ class Dashboard extends Component {
             </div>
             <div className="card text-center" id="util">
               <h5>Utilities</h5>
+            </div>
+            <div className="card text-center" id="car">
+              <h5>CarTransportation</h5>
+            </div>
+            <div className="card text-center" id="food">
+              <h5>Food/Dining</h5>
+            </div>
+            <div className="card text-center" id="credit">
+              <h5>Credit Cards</h5>
+            </div>
+            <div className="card text-center" id="loan">
+              <h5>Loans</h5>
+            </div>
+            <div className="card text-center" id="medical">
+              <h5>Medical/Health</h5>
+            </div>
+            <div className="card text-center" id="other">
+              <h5>Other</h5>
             </div>
           </div>
         </div>

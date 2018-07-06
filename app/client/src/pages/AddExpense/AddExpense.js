@@ -4,10 +4,10 @@ import ExpenseInput from '../../components/ExpenseInput/ExpenseInput';
 class AddExpense extends Component {
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center">Add an Expense</h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <h2 className="text-center">Add an Expense</h2>
             <ExpenseInput />
           </div>
         </div>
