@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Input from './components/Input';
 
 class ExpenseInput extends Component {
   constructor(props) {
@@ -12,24 +13,25 @@ class ExpenseInput extends Component {
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
+    console.log(target);
 
     this.setState({
       [name]: value
     });
+    console.log(this.state);
   }
   render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <div class="form-group">
+          <div className="form-group">
             <label>Expense Category</label>
             <select
-              class="custom-select"
+              className="custom-select"
               name="expenseCategory"
               value={this.state.value}
-              onChange={this.handleChange}
+              onChange={this.handleInputChange}
             >
-              <option selected>Pick a Category</option>
               <option value="Rent/Mortgage">Rent/Mortgage</option>
               <option value="Utilities">Utilities</option>
               <option value="Car/Transportation">Car/Transportation</option>
@@ -40,17 +42,17 @@ class ExpenseInput extends Component {
               <option value="Other">Other</option>
             </select>
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label>Bill Name</label>
             <input
               name="billName"
               type="text"
               value={this.state.billName}
               onChange={this.handleInputChange}
-              class="form-control"
+              className="form-control"
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="">Amount/Monthly Average</label>
             <input
               name="amount"
@@ -58,10 +60,10 @@ class ExpenseInput extends Component {
               value={this.state.amount}
               onChange={this.handleInputChange}
               placeholder="00.00"
-              class="form-control"
+              className="form-control"
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="">Due Date</label>
             <input
               name="dueDate"
@@ -69,32 +71,43 @@ class ExpenseInput extends Component {
               value={this.state.dueDate}
               onChange={this.handleInputChange}
               placeholder="MM/DD"
-              class="form-control"
+              className="form-control"
             />
           </div>
-          <div class="form-group">
-            <label for="">Account Paid From</label>
+          <div className="form-group">
+            <label for="acctPaidFrom">Account Paid From</label>
             <input
               name="acctPaidFrom"
               type="text"
               value={this.state.acctPaidFrom}
               onChange={this.handleInputChange}
               placeholder="Bank/Credit Card"
-              class="form-control"
+              className="form-control"
             />
           </div>
-          <div class="form-check">
+          <div className="form-check">
             <input
               name="autoPay"
               type="checkbox"
               value={this.state.autoPay}
               onChange={this.handleInputChange}
-              class="form-check-input"
+              className="form-check-input"
             />
-            <label class="form-check-label">Auto Pay</label>
+            <label className="form-check-label">Auto Pay</label>
           </div>
           <br />
-          <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+          <input
+            className="btn btn-primary btn-lg"
+            type="submit"
+            value="Submit"
+          />
+          <Input
+            name="amount"
+            type="text"
+            value={this.state.amount}
+            onChange={this.handleInputChange}
+            placeholder="00.00"
+          />
         </form>
       </div>
     );
