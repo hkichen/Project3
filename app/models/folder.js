@@ -17,13 +17,13 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       notEmpty: true
     },
-    autoPay: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false
-    },
     acctPaidFrom: {
       type: DataTypes.STRING,
       notEmpty: true
+    },
+    autoPay: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
     }
   });
   Folder.associate = function(models) {

@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
-import { pie } from 'react-chartjs-2';
+import { Pie } from 'react-chartjs-2';
+import './Chart.css';
 
 class Chart extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      chartData: props.chartData
+    };
+  }
+
   render() {
     return (
-      <div className="chart">
-        <pie />
+      <div className="chart-container">
+        <Pie
+          data={this.state.chartData}
+          options={{
+            legend: {
+              display: true,
+              position: 'bottom'
+            }
+          }}
+        />
       </div>
     );
   }
 }
-
 export default Chart;
