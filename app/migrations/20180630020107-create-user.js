@@ -9,28 +9,28 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       firstName: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         notEmpty: true
       },
       lastName: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         notEmpty: true
       },
       email: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         validate: {
           isEmail: true,
           notEmpty: true
         }
       },
       password: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         validate: {
           notEmpty: true
         }
       },
       status: {
-        type: DataTypes.ENUM('active', 'inactive'),
+        type: Sequelize.ENUM('active', 'inactive'),
         defaultValue: 'active'
       },
       createdAt: {

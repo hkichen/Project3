@@ -8,12 +8,25 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      date: {
-        type: Sequelize.STRING
+      category: {
+        type: Sequelize.STRING,
+        notEmpty: true
       },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+      amount: {
+        type: Sequelize.DECIMAL(10, 2),
+        notEmpty: true
+      },
+      description: {
+        type: Sequelize.TEXT,
+        notEmpty: true
+      },
+      moneySource: {
+        type: Sequelize.STRING,
+        notEmpty: true,
+      },
+      autoPay: {
+        type: Sequelize.BOOLEAN,
+        notEmpty: true
       },
       updatedAt: {
         allowNull: false,
