@@ -5,7 +5,7 @@ class Statement extends Component{
     render()    {
         return  (
             <div>
-                <div class="card" id="expenseTypes">
+                <div className="card" id="expenseTypes">
                     <button type="button" class="btn btn-primary" id="rent">Rent/Mortgage</button>
                     <button type="button" class="btn btn-primary" id="util">Utilities</button>
                     <button type="button" class="btn btn-primary" id="car">Car/Transit</button>
